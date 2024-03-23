@@ -9,7 +9,7 @@ from scripts.cloud import Clouds
 from scripts.paticle import Particle
 from scripts.spark import Spark
 import scripts.menus
-import _xxsubinterpreters
+
 import asyncio
 #screen shake, 5:12:00, could be a coll effect later but dont need it now
 pygame.init()
