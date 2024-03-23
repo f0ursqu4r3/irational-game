@@ -1,0 +1,47 @@
+=== colors ===
+You have 2 colors selected at any time. The first is your primary (black by default). This is what you'll be using most of the time. You draw with it using left click. The secondary color (white by default) is your background color. This color is set to transparent within Px Editor. Transparency is important for layering and selection, but Px Editor doesn't export with an alpha channel. Changing the secondary color would change what color is considered transparent.
+Click "select color" to create a new color. Click the numbers next to "raw RGB value:" to enter new color values (0 to 255 per color separated by ";") or use the sliders below. Click "save" after you're satisfied with your new color.
+
+=== palettes ===
+Palettes work a bit differently in Px Editor compared to most pixel art tools. Colors in your palette can be rearranged as you please just by dragging. Click "save color" to add your primary color to your palette. Left clicking a color in your palette will set your primary color to it while right clicking it will set your secondary color to it. Middle clicking a color in your palette will delete it. 
+You can save palettes using the "save palette button". Click "import palette" to load palettes either from images or Px Editor's palette files (.pxep).
+
+=== saving/loading/exporting ===
+Use "save" and "save as" for saving your project as a Px Editor file (.pxe). This saves all the project specific data. Use "load" to load PNG files or Px Editor projects (.pxe). Use "export" to export your project to PNG file(s). If you have multiple frames, multiple images will be created and numbers will be added to the file name you provide.
+
+=== the stuff in the top-right corner ===
+The brush size is visible in the top-right corner. Use ctrl + scroll wheel to change the brush size.
+The numbers below the brush size are for the resolution of the canvas. Click them to change the canvas resolution. (two numbers separated by a ";")
+
+=== canvas view ===
+Use the scroll wheel to change the zoom on the canvas.
+Middle click and drag to move the canvas around.
+
+=== animation and layers ===
+The stuff on the bottom of the window is all for layer/frame management. Each square is a preview of an individual layer (separated vertically) inside a frame (separated horizontally). The preview images with the colored bars show which frame you have selected and the green bar shows which layer you have selected.
+Click "add layer" to add a layer and click the layer's preview image to switch to editing it. Click the "X" on the left to delete the layer.
+Click the eye-looking icon to change the opacity of a layer (0 to 255 with 255 being opaque).
+Click "add frame" to copy your current frame and add a new frame to the immediate right of the frame you have selected. Drag a preview (with left click) to rearrange the frame order. Middle click a preview in a frame to delete the frame.
+Click the play button to play the animation and click it again to pause it. Click the number next to "frame pause:" to adjust the pause between frames. (measured in 1/60th of a second)
+Click the button to the right of the frame pause option to toggle the onion skinning.
+
+=== tools ===
+There are a few key-bound tools in Px Editor.
+The most useful one is probably the color picker. Hold left control and click anywhere in the canvas to set that color to your primary color.
+Hold F and click on the canvas to floodfill with your primary color.
+Use Left Control + Z to undo and Left Control + Y to redo.
+Hold S, click, (you can release S at this point) and drag to select a portion of the canvas. This allows many other features. Right click to deselect.
+Click and drag (anywhere) to move around the selected portion. You can also switch frames during selection to move a selected portion between frames.
+Hold R, click, and drag (anywhere) to resize the selected portion.
+Press F to flip the selected portion horizontally or press Left Shift + F to flip the selected portion vertically.
+Use Left Control + C to copy the selected portion.
+While nothing is selected, use Left Control + V to paste whatever you previously copied.
+Use Left Control + X to delete the selected portion.
+
+=== developer notes ===
+Px Editor is what I (DaFluffyPotato) use for pixel art, so I will add features as I need them.
+Check for updates at the project's page: https://cmlsc.itch.io/px-editor
+
+This is technically my 3rd time writing Px Editor from the ground up (hence the "3" everywhere). I've been using Px Editor versions 1 to 2 since 2016 for my pixel art in combination with MS Paint (limited but efficient). Px Editor 3 is meant to cover uses where MS Paint was more efficient so that I only need 1 application.
+
+If you found this tool useful, please follow me on Twitter (@DaFluffyPotato) and consider donating for your copy of Px Editor at https://cmlsc.itch.io/px-editor. ^-^
